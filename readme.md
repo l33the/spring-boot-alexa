@@ -26,11 +26,26 @@ server.ssl.keyAlias=tomcat
 
 ```
 
+In your Application Class add the following Annotation:
+
+```
+@Import(AlexaConfiguration.class)
+```
+
 <h2>Add RequestHandler</h2>
 
 With Spring Boot you dont need to register your RequestHandler. Just add `@Component` 
 to your RequestHandler.
 
 
-This package includes Amazons official ASK SDK.
+Required Dependencies:
+
+- Amazon Alexa SDK 2.0
+- Spring Boot Starter Web
+
+
+WIP Maven Repository incoming.
+
+
+
 
