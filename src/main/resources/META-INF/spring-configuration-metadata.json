@@ -1,0 +1,12 @@
+{
+  "properties": [
+    {
+      "name": "alexa.skill.id",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "alexa.skill.endpoint.url",
+      "type": "java.lang.String"
+    }
+  ]
+}
