@@ -1,7 +1,7 @@
 <h1>Spring Boot Starter Alexa</h1>
 
 This plugin supports creating Spring Boot Webservices with Amazon Alexa. With this, you can without using
-AWS create Skills with a HTTPS Endpoint.
+AWS create Skills with a HTTPS Endpoint. (You still need to use your own certificate.)
 The setup is pretty simple.
 
 <h2>Setup</h2>
